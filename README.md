@@ -10,7 +10,7 @@ See the Managed Application Runtime getting started documentation at Qt Cloud Se
 
 ### Procfile
 
-Upon deployed and launched in Cloud Qt Cloud Services the MAR provides an environmental variable **$PORT** for which the HTTP requests from the load balancer port 80 are forwarded.
+Upon deployed and launched in Cloud Qt Cloud Services the MAR provides an environmental variable **$PORT** for which the HTTP requests from the load balancer port 80 are forwarded into.
 
 ## Running and Testing Application Locally
 
@@ -23,10 +23,10 @@ java $JAVA_OPTS -Dserver.port=$PORT -jar target/*.jar
 
 You may replace the **$PORT** environmental variable with the chosen port number that your local shell process is privileged to run. If the **$PORT** variable is omitted, the HTTP server defaults the port 8080.
 
-Once the server has started with the default port number, test the server with your web browser at address http://127.0.0.1:8080
+Once the server has started with the default port number, test the server with your web browser at address http://127.0.0.1:8080.
 
 ## Deploying to Cloud
 
 Please see the Qt Cloud Services [Developer Documentation ](https://developer.qtcloudservices.com/mar/getting-started)
 
-**NOTE**: Without tweaking any command-line Java arguments regarding the heap memory usage deploy the sample app only the instance which fulfills the following Runtime Size: **ar-1-small (2CU, 512MB)** 
+**NOTE**: Without tweaking any command-line Java arguments regarding the heap memory usage deploy the sample app only to the instance which fulfills the following Runtime Size: **ar-1-small (2CU, 512MB)** 
