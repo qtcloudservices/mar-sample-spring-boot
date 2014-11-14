@@ -16,12 +16,20 @@ Upon deployed and launched in Cloud Qt Cloud Services the MAR provides an enviro
 
 You can start this application from the application root directory with the same following command as declared in the **Procfile** once the project has been built with Maven:
 
+
+### *nix
 ```
 mvn clean install
 java $JAVA_OPTS -Dserver.port=$PORT -jar target/*.jar
 ```
 
 You may replace the **$PORT** environmental variable with the chosen port number that your local shell process is privileged to run. If the **$PORT** variable is omitted, the HTTP server defaults the port 8080.
+
+### Windows
+```
+mvn clean install
+java -Dserver.port=8080 -jar target\mar-sample-spring-boot-0.0.1-SNAPSHOT.jar
+```
 
 Once the server has started with the default port number, test the server with your web browser at address http://127.0.0.1:8080.
 
