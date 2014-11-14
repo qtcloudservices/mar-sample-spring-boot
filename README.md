@@ -10,7 +10,7 @@ See the Managed Application Runtime getting started documentation at Qt Cloud Se
 
 ### Procfile
 
-Upon deployed and launched in Cloud Qt Cloud Services the MAR provides an environmental variable **$PORT** for which the HTTP requests from the load balancer port 80 are forwarded into.
+Upon deployed and launched in Cloud Qt Cloud Services the MAR container provides an environmental variable **$PORT** for which the HTTPS requests hitting Qt Cloud Services load balancer SSL port are internally forwarded into.
 
 ## Running and Testing Application Locally
 
