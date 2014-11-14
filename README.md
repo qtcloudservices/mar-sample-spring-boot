@@ -31,7 +31,7 @@ mvn clean install
 java -Dserver.port=8080 -jar target\mar-sample-spring-boot-0.0.1-SNAPSHOT.jar
 ```
 
-Once the server has started with the default port number, test the server with your web browser at address http://127.0.0.1:8080.
+Once the server has been started with the default port number, you may test the application with your web browser at address http://127.0.0.1:8080.
 
 ## Deploying to Cloud
 
